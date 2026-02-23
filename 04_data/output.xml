@@ -1,339 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-23T23:29:22.849837" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-23T23:32:11.663881" rpa="false" schemaversion="5">
 <suite id="s1" name="02 Git Dwonload Test" source="D:\01_HexaEmbed\02_Git_Dwonload_Test">
 <suite id="s1-s1" name="01 tests Folder 001" source="D:\01_HexaEmbed\02_Git_Dwonload_Test\01_tests_Folder_001">
 <suite id="s1-s1-s1" name="01 TestSerial" source="D:\01_HexaEmbed\02_Git_Dwonload_Test\01_tests_Folder_001\01_TestSerial.robot">
 <test id="s1-s1-s1-t1" name="Echo Test One" line="5">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:26.935259" level="INFO">Sent: One</msg>
+<msg time="2026-02-23T23:32:15.753596" level="INFO">Sent: One</msg>
 <arg>One</arg>
-<status status="PASS" start="2026-02-23T23:29:24.929348" elapsed="2.010622"/>
+<status status="PASS" start="2026-02-23T23:32:13.747853" elapsed="2.010330"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:27.943183" level="INFO">Received: One</msg>
-<msg time="2026-02-23T23:29:27.944237" level="INFO">${response} = One</msg>
+<msg time="2026-02-23T23:32:16.764152" level="INFO">Received: One</msg>
+<msg time="2026-02-23T23:32:16.765192" level="INFO">${response} = One</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:26.940836" elapsed="1.003712"/>
+<status status="PASS" start="2026-02-23T23:32:15.759054" elapsed="1.006494"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>One</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:27.945216" elapsed="0.002001"/>
+<status status="PASS" start="2026-02-23T23:32:16.766288" elapsed="0.001927"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:27.947868" elapsed="0.001613"/>
+<status status="PASS" start="2026-02-23T23:32:16.768861" elapsed="0.001653"/>
 </kw>
 <doc>This test case One</doc>
 <tag>login</tag>
 <tag>One</tag>
-<status status="PASS" start="2026-02-23T23:29:24.926355" elapsed="3.023758"/>
+<status status="PASS" start="2026-02-23T23:32:13.744179" elapsed="3.027082"/>
 </test>
 <test id="s1-s1-s1-t2" name="Echo Test Two" line="13">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:29.959849" level="INFO">Sent: Two</msg>
+<msg time="2026-02-23T23:32:18.781839" level="INFO">Sent: Two</msg>
 <arg>Two</arg>
-<status status="PASS" start="2026-02-23T23:29:27.954467" elapsed="2.005927"/>
+<status status="PASS" start="2026-02-23T23:32:16.775936" elapsed="2.006509"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:30.963799" level="INFO">Received: Two</msg>
-<msg time="2026-02-23T23:29:30.964816" level="INFO">${response} = Two</msg>
+<msg time="2026-02-23T23:32:19.796989" level="INFO">Received: Two</msg>
+<msg time="2026-02-23T23:32:19.797951" level="INFO">${response} = Two</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:29.960951" elapsed="1.004279"/>
+<status status="PASS" start="2026-02-23T23:32:18.783089" elapsed="1.015220"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Two</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:30.965876" elapsed="0.001716"/>
+<status status="PASS" start="2026-02-23T23:32:19.798988" elapsed="0.001755"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:30.968183" elapsed="0.001727"/>
+<status status="PASS" start="2026-02-23T23:32:19.801347" elapsed="0.001917"/>
 </kw>
 <doc>This test case Two</doc>
 <tag>login</tag>
 <tag>Two</tag>
-<status status="PASS" start="2026-02-23T23:29:27.952372" elapsed="3.018228"/>
+<status status="PASS" start="2026-02-23T23:32:16.773860" elapsed="3.030167"/>
 </test>
 <test id="s1-s1-s1-t3" name="Echo Test Three" line="21">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:32.979456" level="INFO">Sent: Three</msg>
+<msg time="2026-02-23T23:32:21.813720" level="INFO">Sent: Three</msg>
 <arg>Three</arg>
-<status status="PASS" start="2026-02-23T23:29:30.974272" elapsed="2.005744"/>
+<status status="PASS" start="2026-02-23T23:32:19.808611" elapsed="2.005708"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:33.986178" level="INFO">Received: Three</msg>
-<msg time="2026-02-23T23:29:33.986434" level="INFO">${response} = Three</msg>
+<msg time="2026-02-23T23:32:22.832366" level="INFO">Received: Three</msg>
+<msg time="2026-02-23T23:32:22.833368" level="INFO">${response} = Three</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:32.980570" elapsed="1.005937"/>
+<status status="PASS" start="2026-02-23T23:32:21.814957" elapsed="1.018766"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Three</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:33.986690" elapsed="0.000400"/>
+<status status="PASS" start="2026-02-23T23:32:22.834388" elapsed="0.001992"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:33.987222" elapsed="0.000596"/>
+<status status="PASS" start="2026-02-23T23:32:22.837022" elapsed="0.001874"/>
 </kw>
 <doc>This test case Three</doc>
 <tag>login</tag>
 <tag>Three</tag>
-<status status="PASS" start="2026-02-23T23:29:30.972398" elapsed="3.015560"/>
+<status status="PASS" start="2026-02-23T23:32:19.806339" elapsed="3.033292"/>
 </test>
-<status status="PASS" start="2026-02-23T23:29:22.909466" elapsed="11.079086"/>
+<status status="PASS" start="2026-02-23T23:32:11.726967" elapsed="11.115521"/>
 </suite>
 <suite id="s1-s1-s2" name="02 TestSerial" source="D:\01_HexaEmbed\02_Git_Dwonload_Test\01_tests_Folder_001\02_TestSerial.robot">
 <test id="s1-s1-s2-t1" name="Echo Test One" line="5">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:35.993580" level="INFO">Sent: Four</msg>
+<msg time="2026-02-23T23:32:24.861739" level="INFO">Sent: Four</msg>
 <arg>Four</arg>
-<status status="PASS" start="2026-02-23T23:29:33.991249" elapsed="2.003748"/>
+<status status="PASS" start="2026-02-23T23:32:22.856443" elapsed="2.005842"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:37.000454" level="INFO">Received: Four</msg>
-<msg time="2026-02-23T23:29:37.000761" level="INFO">${response} = Four</msg>
+<msg time="2026-02-23T23:32:25.882699" level="INFO">Received: Four</msg>
+<msg time="2026-02-23T23:32:25.883567" level="INFO">${response} = Four</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:35.995308" elapsed="1.005534"/>
+<status status="PASS" start="2026-02-23T23:32:24.862833" elapsed="1.021079"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Four</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:37.001059" elapsed="0.000475"/>
+<status status="PASS" start="2026-02-23T23:32:25.884578" elapsed="0.001685"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:37.001689" elapsed="0.000488"/>
+<status status="PASS" start="2026-02-23T23:32:25.886856" elapsed="0.001811"/>
 </kw>
 <doc>This test case Four</doc>
 <tag>four</tag>
 <tag>login</tag>
-<status status="PASS" start="2026-02-23T23:29:33.990901" elapsed="3.011464"/>
+<status status="PASS" start="2026-02-23T23:32:22.854620" elapsed="3.035003"/>
 </test>
 <test id="s1-s1-s2-t2" name="Echo Test Two" line="13">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:39.005963" level="INFO">Sent: Five</msg>
+<msg time="2026-02-23T23:32:27.899333" level="INFO">Sent: Five</msg>
 <arg>Five</arg>
-<status status="PASS" start="2026-02-23T23:29:37.003256" elapsed="2.003238"/>
+<status status="PASS" start="2026-02-23T23:32:25.893968" elapsed="2.005959"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:40.028594" level="INFO">Received: Five</msg>
-<msg time="2026-02-23T23:29:40.028827" level="INFO">${response} = Five</msg>
+<msg time="2026-02-23T23:32:28.915323" level="INFO">Received: Five</msg>
+<msg time="2026-02-23T23:32:28.916301" level="INFO">${response} = Five</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:39.007044" elapsed="1.021859"/>
+<status status="PASS" start="2026-02-23T23:32:27.900554" elapsed="1.016083"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
-<msg time="2026-02-23T23:29:40.029527" level="FAIL">Five != five</msg>
+<msg time="2026-02-23T23:32:28.919174" level="FAIL">Five != five</msg>
 <arg>${response}</arg>
 <arg>five</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="FAIL" start="2026-02-23T23:29:40.029074" elapsed="0.000656">Five != five</status>
+<status status="FAIL" start="2026-02-23T23:32:28.917290" elapsed="0.002725">Five != five</status>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="NOT RUN" start="2026-02-23T23:29:40.029874" elapsed="0.000068"/>
+<status status="NOT RUN" start="2026-02-23T23:32:28.920715" elapsed="0.000336"/>
 </kw>
 <doc>This test case Five</doc>
 <tag>Five</tag>
 <tag>login</tag>
-<status status="FAIL" start="2026-02-23T23:29:37.002799" elapsed="3.027318">Five != five</status>
+<status status="FAIL" start="2026-02-23T23:32:25.892074" elapsed="3.029708">Five != five</status>
 </test>
 <test id="s1-s1-s2-t3" name="Echo Test Three" line="21">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:42.033437" level="INFO">Sent: Six</msg>
+<msg time="2026-02-23T23:32:30.933146" level="INFO">Sent: Six</msg>
 <arg>Six</arg>
-<status status="PASS" start="2026-02-23T23:29:40.031293" elapsed="2.002345"/>
+<status status="PASS" start="2026-02-23T23:32:28.926648" elapsed="2.007118"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:43.043218" level="INFO">Received: Six</msg>
-<msg time="2026-02-23T23:29:43.044209" level="INFO">${response} = Six</msg>
+<msg time="2026-02-23T23:32:31.951737" level="INFO">Received: Six</msg>
+<msg time="2026-02-23T23:32:31.952566" level="INFO">${response} = Six</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:42.033787" elapsed="1.010916"/>
+<status status="PASS" start="2026-02-23T23:32:30.934394" elapsed="1.018480"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Six</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:43.045349" elapsed="0.001713"/>
+<status status="PASS" start="2026-02-23T23:32:31.953453" elapsed="0.001448"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:43.047651" elapsed="0.002021"/>
+<status status="PASS" start="2026-02-23T23:32:31.955471" elapsed="0.001455"/>
 </kw>
 <doc>This test case Six</doc>
 <tag>login</tag>
 <tag>Six</tag>
-<status status="PASS" start="2026-02-23T23:29:40.030837" elapsed="3.019508"/>
+<status status="PASS" start="2026-02-23T23:32:28.924764" elapsed="3.032745"/>
 </test>
-<status status="FAIL" start="2026-02-23T23:29:33.989168" elapsed="9.063812"/>
+<status status="FAIL" start="2026-02-23T23:32:22.846434" elapsed="9.113107"/>
 </suite>
-<status status="FAIL" start="2026-02-23T23:29:22.907173" elapsed="20.149895"/>
+<status status="FAIL" start="2026-02-23T23:32:11.724601" elapsed="20.238634"/>
 </suite>
 <suite id="s1-s2" name="01 tests Folder 002" source="D:\01_HexaEmbed\02_Git_Dwonload_Test\01_tests_Folder_002">
 <suite id="s1-s2-s1" name="01 TestSerial" source="D:\01_HexaEmbed\02_Git_Dwonload_Test\01_tests_Folder_002\01_TestSerial.robot">
 <test id="s1-s2-s1-t1" name="Echo Test One" line="5">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:45.079789" level="INFO">Sent: One</msg>
+<msg time="2026-02-23T23:32:33.980222" level="INFO">Sent: One</msg>
 <arg>One</arg>
-<status status="PASS" start="2026-02-23T23:29:43.076061" elapsed="2.004229"/>
+<status status="PASS" start="2026-02-23T23:32:31.976627" elapsed="2.004152"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:46.092026" level="INFO">Received: One</msg>
-<msg time="2026-02-23T23:29:46.093408" level="INFO">${response} = One</msg>
+<msg time="2026-02-23T23:32:35.000783" level="INFO">Received: One</msg>
+<msg time="2026-02-23T23:32:35.002081" level="INFO">${response} = One</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:45.080844" elapsed="1.013047"/>
+<status status="PASS" start="2026-02-23T23:32:33.981400" elapsed="1.021038"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>One</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:46.094531" elapsed="0.001662"/>
+<status status="PASS" start="2026-02-23T23:32:35.003090" elapsed="0.001708"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:46.096777" elapsed="0.001644"/>
+<status status="PASS" start="2026-02-23T23:32:35.005415" elapsed="0.001560"/>
 </kw>
 <doc>This test case One</doc>
 <tag>login</tag>
 <tag>One</tag>
-<status status="PASS" start="2026-02-23T23:29:43.075262" elapsed="3.023833"/>
+<status status="PASS" start="2026-02-23T23:32:31.975992" elapsed="3.031643"/>
 </test>
 <test id="s1-s2-s1-t2" name="Echo Test Two" line="13">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:48.107919" level="INFO">Sent: Two</msg>
+<msg time="2026-02-23T23:32:37.017205" level="INFO">Sent: Two</msg>
 <arg>Two</arg>
-<status status="PASS" start="2026-02-23T23:29:46.102761" elapsed="2.005714"/>
+<status status="PASS" start="2026-02-23T23:32:35.011634" elapsed="2.006150"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:49.122307" level="INFO">Received: Two</msg>
-<msg time="2026-02-23T23:29:49.123113" level="INFO">${response} = Two</msg>
+<msg time="2026-02-23T23:32:38.029985" level="INFO">Received: Two</msg>
+<msg time="2026-02-23T23:32:38.030684" level="INFO">${response} = Two</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:48.109103" elapsed="1.014320"/>
+<status status="PASS" start="2026-02-23T23:32:37.018406" elapsed="1.012550"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Two</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:49.124065" elapsed="0.001625"/>
+<status status="PASS" start="2026-02-23T23:32:38.031533" elapsed="0.001406"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:49.126297" elapsed="0.001592"/>
+<status status="PASS" start="2026-02-23T23:32:38.033448" elapsed="0.001454"/>
 </kw>
 <doc>This test case Two</doc>
 <tag>login</tag>
 <tag>Two</tag>
-<status status="PASS" start="2026-02-23T23:29:46.101190" elapsed="3.027370"/>
+<status status="PASS" start="2026-02-23T23:32:35.009791" elapsed="3.025689"/>
 </test>
 <test id="s1-s2-s1-t3" name="Echo Test Three" line="21">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:51.137882" level="INFO">Sent: Three</msg>
+<msg time="2026-02-23T23:32:40.043730" level="INFO">Sent: Three</msg>
 <arg>Three</arg>
-<status status="PASS" start="2026-02-23T23:29:49.132845" elapsed="2.005587"/>
+<status status="PASS" start="2026-02-23T23:32:38.039044" elapsed="2.005198"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:52.153689" level="INFO">Received: Three</msg>
-<msg time="2026-02-23T23:29:52.154416" level="INFO">${response} = Three</msg>
+<msg time="2026-02-23T23:32:41.052982" level="INFO">Received: Three</msg>
+<msg time="2026-02-23T23:32:41.053955" level="INFO">${response} = Three</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:51.139158" elapsed="1.015542"/>
+<status status="PASS" start="2026-02-23T23:32:40.044801" elapsed="1.009486"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Three</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:52.155285" elapsed="0.001468"/>
+<status status="PASS" start="2026-02-23T23:32:41.054931" elapsed="0.001640"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:52.157288" elapsed="0.001574"/>
+<status status="PASS" start="2026-02-23T23:32:41.057159" elapsed="0.001668"/>
 </kw>
 <doc>This test case Three</doc>
 <tag>login</tag>
 <tag>Three</tag>
-<status status="PASS" start="2026-02-23T23:29:49.130965" elapsed="3.028522"/>
+<status status="PASS" start="2026-02-23T23:32:38.037139" elapsed="3.022364"/>
 </test>
-<status status="PASS" start="2026-02-23T23:29:43.067640" elapsed="9.093833"/>
+<status status="PASS" start="2026-02-23T23:32:31.972215" elapsed="9.089819"/>
 </suite>
 <suite id="s1-s2-s2" name="02 TestSerial" source="D:\01_HexaEmbed\02_Git_Dwonload_Test\01_tests_Folder_002\02_TestSerial.robot">
 <test id="s1-s2-s2-t1" name="Echo Test One" line="5">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:54.179873" level="INFO">Sent: Four</msg>
+<msg time="2026-02-23T23:32:43.079572" level="INFO">Sent: Four</msg>
 <arg>Four</arg>
-<status status="PASS" start="2026-02-23T23:29:52.174846" elapsed="2.005592"/>
+<status status="PASS" start="2026-02-23T23:32:41.074801" elapsed="2.005339"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:55.203622" level="INFO">Received: Four</msg>
-<msg time="2026-02-23T23:29:55.204445" level="INFO">${response} = Four</msg>
+<msg time="2026-02-23T23:32:44.099600" level="INFO">Received: Four</msg>
+<msg time="2026-02-23T23:32:44.100554" level="INFO">${response} = Four</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:54.181056" elapsed="1.023703"/>
+<status status="PASS" start="2026-02-23T23:32:43.080772" elapsed="1.020109"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Four</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:29:55.205406" elapsed="0.001639"/>
+<status status="PASS" start="2026-02-23T23:32:44.101536" elapsed="0.001668"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:29:55.207671" elapsed="0.001680"/>
+<status status="PASS" start="2026-02-23T23:32:44.103807" elapsed="0.001676"/>
 </kw>
 <doc>This test case Four</doc>
 <tag>four</tag>
 <tag>login</tag>
-<status status="PASS" start="2026-02-23T23:29:52.173400" elapsed="3.036634"/>
+<status status="PASS" start="2026-02-23T23:32:41.073040" elapsed="3.033099"/>
 </test>
 <test id="s1-s2-s2-t2" name="Echo Test Two" line="13">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:57.219298" level="INFO">Sent: Five</msg>
+<msg time="2026-02-23T23:32:46.115396" level="INFO">Sent: Five</msg>
 <arg>Five</arg>
-<status status="PASS" start="2026-02-23T23:29:55.213687" elapsed="2.006183"/>
+<status status="PASS" start="2026-02-23T23:32:44.110251" elapsed="2.005703"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:29:58.239211" level="INFO">Received: Five</msg>
-<msg time="2026-02-23T23:29:58.240044" level="INFO">${response} = Five</msg>
+<msg time="2026-02-23T23:32:47.125722" level="INFO">Received: Five</msg>
+<msg time="2026-02-23T23:32:47.125960" level="INFO">${response} = Five</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:29:57.220490" elapsed="1.019863"/>
+<status status="PASS" start="2026-02-23T23:32:46.116579" elapsed="1.009453"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
-<msg time="2026-02-23T23:29:58.242896" level="FAIL">Five != five</msg>
+<msg time="2026-02-23T23:32:47.126677" level="FAIL">Five != five</msg>
 <arg>${response}</arg>
 <arg>five</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="FAIL" start="2026-02-23T23:29:58.241029" elapsed="0.002432">Five != five</status>
+<status status="FAIL" start="2026-02-23T23:32:47.126210" elapsed="0.000608">Five != five</status>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="NOT RUN" start="2026-02-23T23:29:58.244074" elapsed="0.000318"/>
+<status status="NOT RUN" start="2026-02-23T23:32:47.126970" elapsed="0.000073"/>
 </kw>
 <doc>This test case Five</doc>
 <tag>Five</tag>
 <tag>login</tag>
-<status status="FAIL" start="2026-02-23T23:29:55.211786" elapsed="3.033304">Five != five</status>
+<status status="FAIL" start="2026-02-23T23:32:44.108378" elapsed="3.018830">Five != five</status>
 </test>
 <test id="s1-s2-s2-t3" name="Echo Test Three" line="21">
 <kw name="Write Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:30:00.254859" level="INFO">Sent: Six</msg>
+<msg time="2026-02-23T23:32:49.131492" level="INFO">Sent: Six</msg>
 <arg>Six</arg>
-<status status="PASS" start="2026-02-23T23:29:58.250261" elapsed="2.004758"/>
+<status status="PASS" start="2026-02-23T23:32:47.128378" elapsed="2.003718"/>
 </kw>
 <kw name="Read Data" owner="SerialLibrary">
-<msg time="2026-02-23T23:30:01.265562" level="INFO">Received: Six</msg>
-<msg time="2026-02-23T23:30:01.265948" level="INFO">${response} = Six</msg>
+<msg time="2026-02-23T23:32:50.145951" level="INFO">Received: Six</msg>
+<msg time="2026-02-23T23:32:50.146722" level="INFO">${response} = Six</msg>
 <var>${response}</var>
-<status status="PASS" start="2026-02-23T23:30:00.255206" elapsed="1.010854"/>
+<status status="PASS" start="2026-02-23T23:32:49.132730" elapsed="1.014319"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${response}</arg>
 <arg>Six</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-02-23T23:30:01.266295" elapsed="0.001360"/>
+<status status="PASS" start="2026-02-23T23:32:50.147695" elapsed="0.001616"/>
 </kw>
 <kw name="Close Serial" owner="SerialLibrary">
-<status status="PASS" start="2026-02-23T23:30:01.268139" elapsed="0.001381"/>
+<status status="PASS" start="2026-02-23T23:32:50.149911" elapsed="0.001633"/>
 </kw>
 <doc>This test case Six</doc>
 <tag>login</tag>
 <tag>Six</tag>
-<status status="PASS" start="2026-02-23T23:29:58.248359" elapsed="3.021708"/>
+<status status="PASS" start="2026-02-23T23:32:47.127984" elapsed="3.024390"/>
 </test>
-<status status="FAIL" start="2026-02-23T23:29:52.163771" elapsed="9.107691"/>
+<status status="FAIL" start="2026-02-23T23:32:41.065713" elapsed="9.088931"/>
 </suite>
-<status status="FAIL" start="2026-02-23T23:29:43.060540" elapsed="18.211990"/>
+<status status="FAIL" start="2026-02-23T23:32:31.966429" elapsed="18.191979"/>
 </suite>
-<status status="FAIL" start="2026-02-23T23:29:22.864462" elapsed="38.408674"/>
+<status status="FAIL" start="2026-02-23T23:32:11.679948" elapsed="38.482528"/>
 </suite>
 <statistics>
 <total>
