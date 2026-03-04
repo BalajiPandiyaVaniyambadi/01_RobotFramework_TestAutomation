@@ -1,5 +1,5 @@
 *** Settings ***
-Library    D:/01_HexaEmbed/22Feb2026/03_libraries/SerialLibrary.py    COM7    9600
+Library    D:/01_HexaEmbed/22Feb2026/03_libraries/SerialLibrary.py    COM8    9600
 
 *** Test Cases ***
 Echo Test One
