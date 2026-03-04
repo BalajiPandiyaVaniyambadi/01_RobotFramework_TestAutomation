@@ -16,5 +16,3 @@ It is designed for embedded firmware validation, hardware-in-loop testing, and r
 - CLI parameter override support
 
 ---
-
-## Project Structure
