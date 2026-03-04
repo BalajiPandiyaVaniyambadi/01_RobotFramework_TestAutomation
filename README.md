@@ -6,7 +6,7 @@ It is designed for embedded firmware validation, hardware-in-loop testing, and r
 
 ---
 
-## 📌 Features
+## Features
 
 - Open and close UART port
 - Send and receive serial data
@@ -17,7 +17,7 @@ It is designed for embedded firmware validation, hardware-in-loop testing, and r
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 uart-robot-tests/
 │
 ├── tests/
