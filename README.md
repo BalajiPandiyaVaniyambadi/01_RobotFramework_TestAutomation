@@ -18,14 +18,3 @@ It is designed for embedded firmware validation, hardware-in-loop testing, and r
 ---
 
 ## Project Structure
-uart-robot-tests/
-│
-├── tests/
-│ ├── uart_basic.robot
-│ └── uart_stress.robot
-│
-├── libraries/
-│ └── SerialLibrary.py
-│
-├── requirements.txt
-└── README.md
