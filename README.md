@@ -1,3 +1,12 @@
+
+---
+
+# Getting Started
+
+- Git Repo: ``git clone https://github.com/BalajiPandiyaVaniyambadi/01_RobotFramework_TestAutomation.git``
+- Install Packages: ``pip install -r requirements.txt``
+
+---
 # UART Serial Testing using Robot Framework
 
 This project provides an automated testing framework to validate UART serial communication using **Robot Framework** and **pyserial**.
@@ -16,3 +25,4 @@ It is designed for embedded firmware validation, hardware-in-loop testing, and r
 - CLI parameter override support
 
 ---
+
