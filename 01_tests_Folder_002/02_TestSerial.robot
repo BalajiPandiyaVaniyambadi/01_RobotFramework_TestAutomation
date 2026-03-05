@@ -15,7 +15,7 @@ Echo Test Two
     [Tags]           Five  login
     Write Data    Five
     ${response}=    Read Data
-    Should Be Equal    ${response}    five
+    Should Be Equal    ${response}    Five
     Close Serial
 
 Echo Test Three

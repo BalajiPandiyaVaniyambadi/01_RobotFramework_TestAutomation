@@ -10,7 +10,7 @@ class SerialLibrary:
     def write_data(self, data):
         # --- Writing data ---
         # Data must be encoded to bytes before writing
-        data_to_send = data.encode("utf-8")#b'Hello from Python\n'
+        data_to_send = data.encode("utf-8")
         self.ser.write(data_to_send)
         print(f"Sent: {data_to_send.decode().strip()}")
 
