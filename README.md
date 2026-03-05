@@ -28,7 +28,7 @@ It is designed for embedded firmware validation, hardware-in-loop testing, and r
 
 ## Folder Structure
 
-- Test Case Folders: **01_tests_Folder_001 and 01_tests_Folder_002**
+- Test Case Folders:  **01_tests_Folder_001 and 01_tests_Folder_002**
 - Test Logs and Results Folders: **04_data: log.html, output.xml, report.html**
 
 ---
